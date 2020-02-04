@@ -51,7 +51,6 @@ def __crawler(subject):
         url = pattern.sub(str(i)+'.jpg', url)
         # print(url)
         __download_img(url, img_path, position)
-
     return
 
 if __name__ == '__main__':
